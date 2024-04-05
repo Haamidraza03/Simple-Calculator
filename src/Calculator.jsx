@@ -91,7 +91,7 @@ function Calculator() {
         <b><p data-aos="flip-up" data-aos-duration="1000" data-aos-easing="ease-in-out" className='mb-3 sc' style={{fontSize:"50px"}}>Simple Calculator</p></b>
         <div data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" className="row justify-content-center">
             <div className="col-md-4 justify-content-center">
-                <input className='rounded-top-4 fs-3 px-3 py-2 border' type="number" inputMode='numeric' value={display} onChange={handleInput} />
+                <input className='rounded-top-4 fs-3 px-3 py-2 border' type="text" inputMode='numeric' value={display} onChange={handleInput} />
             </div>
         </div>
         <div data-aos="fade-up" data-aos-duration="1600" data-aos-easing="ease-in-out" className="row justify-content-center">
