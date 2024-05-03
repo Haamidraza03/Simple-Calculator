@@ -6,7 +6,14 @@ function Calculator() {
 
  const handleInput = (e) => {
     const value = e.target.value;
-    
+    // Check if the input is "80085"
+    if (value === '80085') {
+      alert('Grow up Man!!');
+      // Clear the input after showing the alert
+      setDisplay('');
+      setCurrentInput('');
+      return;
+    }
     // Update the display with the new input
     setDisplay(value);
     setCurrentInput(value);
